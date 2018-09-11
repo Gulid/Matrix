@@ -1,0 +1,25 @@
+input {
+  width: 20px;
+  margin: 2px;
+}
+
+.first  {
+  background-color: lightgreen;
+  padding: 30px;
+}
+.second {
+  background-color: lightseagreen;
+  padding: 30px;
+}
+
+.but {
+  background-color: lightgoldenrodyellow;
+  padding: 15px;
+}
+.third {
+  background-color: lightpink;
+  padding: 30px;
+}
+.select {
+  background-color: lightgrey;
+}
