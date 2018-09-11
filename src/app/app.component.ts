@@ -31,14 +31,16 @@ export class AppComponent implements OnInit, OnChanges {
   c = 1;
   d = 1;
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit() {
     this.createMatrix(1, 1);  // загрузка страницы. Сразу после запуск функции.
     this.createMatrix2(1, 1);
   }
 
-  ngOnChanges() {}
+  ngOnChanges() {
+  }
 
   // создание первой матрицы
 
@@ -158,6 +160,7 @@ export class AppComponent implements OnInit, OnChanges {
         break;
     }
   }
+}
 
 
 
